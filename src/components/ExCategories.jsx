@@ -26,7 +26,7 @@ const ExCategories = ({ data, bodyPart, setBodyPart, isBodyParts }) => {
     });
   });
   return (
-    <div className="horizScroll">
+    <div className="horizScroll" id="Exercice">
       <div>
         <img
           style={{ width: "111px" }}
