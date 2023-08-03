@@ -1,15 +1,13 @@
 import React from "react";
 import HomeImg from "../assets/images/home.jpg";
 import "../index.css";
-import { Bounce } from "react-reveal";
 const Description = () => {
   return (
     <div className="container Description w-100">
-      <Bounce duration={3000}>
-        <div className="title1 text-center">
-          <span>O</span>mar<span> F</span>itness<span> C</span>lub
-        </div>
-      </Bounce>
+      <div className="title1 text-center">
+        <span>O</span>mar<span> F</span>itness<span> C</span>lub
+      </div>
+
       <div className="d-lg-flex">
         <div className="w-100">
           <img className="homeImg img-fluid" src={HomeImg} alt="" />
